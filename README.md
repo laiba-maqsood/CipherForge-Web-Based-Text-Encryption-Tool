@@ -1,11 +1,11 @@
-# 🔐 CipherForge — Web-Based Text Encryption Tool
+# 🔐 CipherForge  Web-Based Text Encryption Tool
 
 A full-featured, single-page web application for encrypting, decrypting, and hashing text using **11 cryptographic algorithms** — from classical ciphers to modern AES/RSA.
 
 ## 🚀 Tech Stack
 - **Frontend + Backend:** Python · Streamlit
 - **Cryptography:** PyCryptodome + Python built-ins (`hashlib`, `secrets`)
-- **No extra dependencies** for the 6 classical ciphers — pure Python
+- **No extra dependencies** for the 6 classical ciphers  pure Python
 
 ## ✅ Features
 - **11 encryption algorithms** across classical and modern categories
@@ -40,7 +40,7 @@ crypto_tool/
 
 ## 🔑 All Algorithms
 
-### Classical Ciphers (Pure Python — no extra libraries)
+### Classical Ciphers (Pure Python  no extra libraries)
 | Algorithm | Type | Key | Security |
 |---|---|---|---|
 | Caesar Cipher | Substitution | Shift 1–25 | ⚠️ Very weak |
@@ -68,10 +68,10 @@ crypto_tool/
 | SHA-1 | 160-bit | ⚠️ Deprecated |
 
 ## 📸 App Pages
-1. **🔒 Encrypt / Decrypt** — Main tool with full algorithm selector, key management, vault save
-2. **#️⃣ Hashing** — One-way cryptographic hashing with copy support
-3. **📚 My Vault** — View and manage saved encrypted messages (requires login)
-4. **📖 Algorithm Guide** — Interactive reference cards for all 11 algorithms
+1. **🔒 Encrypt / Decrypt**  Main tool with full algorithm selector, key management, vault save
+2. **#️⃣ Hashing**  One-way cryptographic hashing with copy support
+3. **📚 My Vault**  View and manage saved encrypted messages (requires login)
+4. **📖 Algorithm Guide**  Interactive reference cards for all 11 algorithms
 
 ## 📦 Dependencies
 ```
@@ -79,7 +79,5 @@ streamlit>=1.32.0
 pycryptodome>=3.20.0
 bcrypt>=4.1.0
 ```
-> The 6 classical ciphers (Vigenère, Autokey Vigenère, Vernam, OTP, Columnar Transposition, Rail Fence) use **only Python standard library** — no extra packages needed.
+> The 6 classical ciphers (Vigenère, Autokey Vigenère, Vernam, OTP, Columnar Transposition, Rail Fence) use **only Python standard library**  no extra packages needed.
 
-## 📄 Report
-See [`REPORT.md`](./REPORT.md) for a full technical explanation of all 11 algorithms including how each cipher works, key sizes, security analysis, and use cases.
