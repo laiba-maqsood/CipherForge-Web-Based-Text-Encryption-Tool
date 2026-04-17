@@ -1,0 +1,37 @@
+{
+  "laiba": {
+    "hash": "08706608c3828f28fb71f483c65b2331e48a6038a2aae33374d7d4b8e59f545a",
+    "salt": "c34d3fa3e962a7c385313fbb814e2a5e",
+    "messages": []
+  },
+  "laiba maqsood": {
+    "hash": "f63e6bed1d5aa8e4a16b9ee1caf6bc6f2323a95dd4b55bd32b0e2e9d308d19bf",
+    "salt": "3a13d44174b5e01af8727e102c3110b7",
+    "messages": [
+      {
+        "label": "my msg",
+        "algorithm": "Vernam Cipher",
+        "ciphertext": "AABQROQUOK",
+        "key": "RANCHOBABA"
+      },
+      {
+        "label": "my 2nd msg",
+        "algorithm": "Rail Fence Cipher",
+        "ciphertext": "a on2tkppnut  tcote ilpasdlm",
+        "key": "4"
+      },
+      {
+        "label": "my 3rd msg",
+        "algorithm": "Vernam Cipher",
+        "ciphertext": "AABQROQUOK",
+        "key": "RANCHOBABA"
+      },
+      {
+        "label": "msg",
+        "algorithm": "Vigen\u00e8re Cipher",
+        "ciphertext": "baca li hslstn fkz\n",
+        "key": "PASWD"
+      }
+    ]
+  }
+}
